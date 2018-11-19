@@ -1,0 +1,14 @@
+Han Geng
+1468074
+
+Exercise 1:
+
+for m = 0.5: small n poorly fit, n=2 is the best fit
+for m = 1: small n does not fit, greater n (like n=4) gives better fit
+for m = 2: small n does not fit well, greater n (n>8) gives better fit, the performance is well enough to make the graphs for n=8:12 almost identical
+for m = 3: greater n gives better performance and better fit the data, but when n>15 the right tail of the fit line increase/decrease like crazy, where n=19 gives good fit again
+
+No matter what value of m we take, the polynomial gets better fit when n is larger, and becomes more steadily well-fit in-between the sample points, but for the points outside the sample interval, the performance is not as steady and representative.
+
+
+Exercise 2:
